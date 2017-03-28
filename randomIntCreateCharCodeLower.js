@@ -5,11 +5,14 @@ var randomInteger = function(val) {
 }
 var i, rInt;
 var letter = '';
-var bas = 0;
+
 for (i = 0; i <65536; i ++){
 	rInt = randomInteger();
-	if (rInt === 97)bas++;
+	if (rInt === 97);
 	letter = String.fromCharCode(rInt);
-	process.stdout.write(letter);
+
+process.stdout.write(letter);
+	
 }
-console.log("\n\n Counting 20 = "+bas);
+
+console.log(letter);
